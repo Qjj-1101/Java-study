@@ -126,4 +126,4 @@ ArrayList 是非线程安全的，多线程同时修改（比如一边加一边�
 
 - **Q：ArrayList 能存重复元素吗？** A：可以，比如多次 `list.add("Java")`，会存储多个“Java”。
 
-- **Q：什么时候用 ArrayList，什么时候用 LinkedList？** A：频繁按索引访问（get/set）用 ArrayList；频繁在首尾增删元素用 LinkedList。
+- **Q：什么时候用 ArrayList，什么时候用 LinkedList？** A：频繁按索引访问（get/set）用 ArrayList；频繁在首尾增删元素用 LinkedList

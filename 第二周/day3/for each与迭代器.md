@@ -84,8 +84,6 @@ java
 
 - 如果遍历的集合对象本身是 `null`，无论是 Iterator 还是 for-each，都会抛出 `NullPointerException`。建议在遍历前进行判空处理。
 
-
-
 **核心作用**：提供一种统一的方式来遍历集合（List, Set 等），并在遍历过程中安全地删除元素。
 
 **语法格式**：
@@ -168,12 +166,9 @@ java
 
 - 如果遍历的集合对象本身是 `null`，无论是 Iterator 还是 for-each，都会抛出 `NullPointerException`。建议在遍历前进行判空处理。
 
-
-
 **核心作用**：提供一种统一的方式来遍历集合（List, Set 等），并在遍历过程中安全地删除元素。
 
 **语法格式**：
-
 
 // 1. 获取迭代器
 Iterator<String> it = list.iterator();
@@ -279,5 +274,3 @@ list.removeIf(s -> "B".equals(s));
   - **选择**：**Iterator**。
 - **情况**：我需要知道当前遍历到了第几个（索引）。
   - **选择**：**普通 for 循环** (for i)。
-
-
